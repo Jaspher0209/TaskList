@@ -2,6 +2,7 @@
 
 ## Functional requirements
 
+
 ### Notes
 
 - Überlege noch, wie du einzelne Task von **To Do's** zu **In Progress** zu **Done** und hin und her wechseln kannst.
@@ -16,7 +17,10 @@
     * Typ von Task : **enum**
     * **(optional)** Beschreibung/Details der Task als Textfeld
     * Status : **enum**
-    * Erstellungsdaten (dd/mm/yyyy) : **string**
+    ///////////////////////**OPTIONAL AUFGRUND DESIGN**/////////////////////////
+    * Erstellungsdaten (dd/mm/yyyy) : **string** 
+    /////////////////////////////////////////////////////////////////////
+
 
 - **Lese Tasks aus**
     * Bereiche für ausgegebene Tasks
@@ -36,6 +40,8 @@
         * Typ von Task : **enum**
         * **(optional)** Beschreibung/Details der Task als Textfeld
         * Status : **enum**
+        
+        ///////////////////////**OPTIONAL AUFGRUND DESIGN**/////////////////////////
         * Erstellungsdaten (dd/mm/yyyy) : **string**
 
 - **Lösche eine Task**
